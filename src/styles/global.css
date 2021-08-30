@@ -1,0 +1,40 @@
+:root{
+    --black:#2b2d42;
+    --gray:#8d99ae;
+    --white:#ffffff;
+
+    --primary-color:#e07a5f;
+    --primary-color-hover:#ffb4a2;
+    --secondary-color:#81b29a;
+    --secondary-color-hover:#b7e4c7;
+
+    --text-color:#6c757d;
+    --head-text-color:#3d405b;
+    --card-bg-color:#f4f1de;
+
+}
+* {
+    box-sizing: border-box;
+}
+
+html,
+body{
+    color: var(--text-color);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    
+}
+
+body{
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--head-text-color);
+    font-weight: 600;
+}
+
+a{
+    color: var(--primary-color);
+}

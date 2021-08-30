@@ -1,0 +1,23 @@
+.header{
+    background-color: var(--card-bg-color);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.header a{
+    color: var(--primary-color);
+    display: inline-block;
+    padding: 0.75rem;
+    text-decoration:none ;
+}
+.header a:focus,.header a:hover{
+    background-color: var(--primary-color-hover);
+    color: var(--head-text-color);
+    border-radius: 16px;
+}
+
+.content{
+    margin: 3rem auto;
+    max-width: 54ch;
+}
