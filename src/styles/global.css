@@ -38,3 +38,8 @@ h1, h2, h3, h4, h5, h6 {
 a{
     color: var(--primary-color);
 }
+
+ul,li{
+    list-style-type: none;
+    margin-bottom: 1rem ;
+}
